@@ -32,7 +32,7 @@ form.addEventListener('submit', addMovie)
 
 const deleteMovie = (evt) => {
     evt.target.parentNode.remove()
-    message.textContent = '0/10 would not recommend'
+    message.textContent = 'No longer interested, don\'t call again'
 }
 
 
